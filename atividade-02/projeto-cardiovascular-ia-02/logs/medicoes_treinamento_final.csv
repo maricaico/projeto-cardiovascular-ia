@@ -1,0 +1,31 @@
+Tarefa,Modelo,Repetição,Tempo (s),Pico alocação Python (KB)
+Classificação,Árvore de Decisão,1,0.1110839959992518,2479.27734375
+Classificação,Árvore de Decisão,2,0.1077620240002943,2479.486328125
+Classificação,Árvore de Decisão,3,0.1104902899996887,2479.27734375
+Classificação,Árvore de Decisão,4,0.1077382280000165,2479.228515625
+Classificação,Árvore de Decisão,5,0.1039111490008509,2479.1796875
+Classificação,Random Forest,1,1.902820791000522,2525.7119140625
+Classificação,Random Forest,2,1.309878351999942,2524.921875
+Classificação,Random Forest,3,1.188929846000065,2525.263671875
+Classificação,Random Forest,4,1.179327843999999,2525.462890625
+Classificação,Random Forest,5,1.210190646000228,2524.7265625
+Classificação,Gradient Boosting,1,0.8110261880001417,2599.703125
+Classificação,Gradient Boosting,2,0.8008495590001985,2599.5771484375
+Classificação,Gradient Boosting,3,0.7982155820000116,2599.6611328125
+Classificação,Gradient Boosting,4,0.8029109910003172,2599.7548828125
+Classificação,Gradient Boosting,5,0.7922424210000827,2599.7099609375
+Regressão,Árvore de Decisão,1,0.06616964700060635,2479.228515625
+Regressão,Árvore de Decisão,2,0.0633814610000627,2479.1796875
+Regressão,Árvore de Decisão,3,0.08152363999943191,2479.580078125
+Regressão,Árvore de Decisão,4,0.06121300500035431,2479.27734375
+Regressão,Árvore de Decisão,5,0.06118882300052064,2479.27734375
+Regressão,Random Forest,1,3.521299427000486,2479.326171875
+Regressão,Random Forest,2,2.29950079199989,2480.521484375
+Regressão,Random Forest,3,2.149465618000249,2479.396484375
+Regressão,Random Forest,4,2.159579680999741,2479.34765625
+Regressão,Random Forest,5,3.017163860000437,2479.298828125
+Regressão,Gradient Boosting,1,1.434064977000162,2479.2109375
+Regressão,Gradient Boosting,2,1.493687598999713,2479.41796875
+Regressão,Gradient Boosting,3,1.515288042000066,2479.306640625
+Regressão,Gradient Boosting,4,1.126923034000356,2479.404296875
+Regressão,Gradient Boosting,5,0.9881421659993066,2479.35546875

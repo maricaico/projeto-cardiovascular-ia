@@ -1,18 +1,31 @@
-# Análise Exploratória e Preparação de Dados para Modelos de Aprendizado de Máquina
+# Projeto Cardiovascular — DCT1401 Inteligência Artificial
 
 **Disciplina:** DCT1401 — Inteligência Artificial  
 **Instituição:** Universidade Federal do Rio Grande do Norte (UFRN)  
 **Curso:** Bacharelado em Sistemas de Informação  
 **Período:** 2026.2  
 **Aluna:** Mariana dos Santos Batista Medeiros  
-**Matrícula:** 20230083988  
+**Matrícula:** 20230083988
+
+## Atividades do repositório
+
+| Atividade                                                     | Conteúdo                                                                                                                       | Onde está                                                               |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| **Atividade 01** — Análise Exploratória e Preparação de Dados | EDA, limpeza, pré-processamento e percepções para regressão e classificação                                                    | raiz do repositório (este README) — [relatório](docs/relatorio_final.pdf)                           |
+| **Atividade 02** — Avaliação Comparativa de Modelos           | Sistema Especialista, Árvore de Decisão, Random Forest e Gradient Boosting; métricas, generalização e eficiência computacional | pasta [`atividade-02/projeto-cardiovascular-ia-02/`](atividade-02/projeto-cardiovascular-ia-02/) — [README](atividade-02/projeto-cardiovascular-ia-02/README.md) e [relatório](atividade-02/projeto-cardiovascular-ia-02/docs/relatorio_final.pdf) |
+
+Cada atividade possui seu próprio `requirements.txt` e suas próprias instruções de execução. As seções a seguir descrevem a **Atividade 01**; para a Atividade 02, consulte o [README da Atividade 02](atividade-02/projeto-cardiovascular-ia-02/README.md).
+
+---
+
+## Atividade 01 — Análise Exploratória e Preparação de Dados para Modelos de Aprendizado de Máquina
 
 ## Dataset
 
 **Cardiovascular Disease Risk Prediction Dataset**
 
 Fonte: Kaggle  
-https://www.kaggle.com/datasets/mobeenfatimah/cardiovascular-disease-risk-prediction-dataset
+[https://www.kaggle.com/datasets/mobeenfatimah/cardiovascular-disease-risk-prediction-dataset](https://www.kaggle.com/datasets/mobeenfatimah/cardiovascular-disease-risk-prediction-dataset)
 
 O arquivo utilizado no projeto deve permanecer em:
 
@@ -22,7 +35,7 @@ data/raw/cardiovascular_disease_prediction.csv
 
 ## Descrição do projeto
 
-Este repositório contém a análise exploratória, a limpeza e o pré-processamento de um conjunto de dados relacionado a risco cardiovascular, além das percepções obtidas para dois problemas de aprendizado supervisionado:
+A Atividade 01 contém a análise exploratória, a limpeza e o pré-processamento de um conjunto de dados relacionado a risco cardiovascular, além das percepções obtidas para dois problemas de aprendizado supervisionado:
 
 - **Regressão:** utilização de `Risk_Score` como variável alvo;
 - **Classificação:** utilização de `Cardiovascular_Disease` como variável alvo.
@@ -51,8 +64,21 @@ Esta etapa do projeto não realiza o treinamento definitivo dos modelos. As aná
 │   └── 04_classification_analysis.ipynb
 ├── reports/
 │   └── figures/
-└── docs/
-    └── relatorio_final.pdf
+├── docs/
+│   └── relatorio_final.pdf
+└── atividade-02/
+    └── projeto-cardiovascular-ia-02/
+        ├── README.md
+        ├── requirements.txt
+        ├── notebooks/
+        ├── data/
+        ├── src/
+        ├── rules/
+        ├── models/
+        ├── logs/
+        ├── reports/
+        └── docs/
+            └── relatorio_final.pdf
 ```
 
 ## Etapas desenvolvidas
@@ -203,11 +229,11 @@ boxplot_features_by_class.png
 categorical_vs_disease.png
 ```
 
-## Requisitos
+## Requisitos da Atividade 01
 
-O projeto foi testado com **Python 3.11**.
+> As instruções desta seção e da seção seguinte valem **somente para a Atividade 01** (notebooks da pasta `notebooks/` na raiz). A **Atividade 02** é executada no **Google Colab** e tem instruções próprias no [README da Atividade 02](atividade-02/projeto-cardiovascular-ia-02/README.md).
 
-As versões utilizadas no ambiente validado estão registradas em `requirements.txt`:
+A Atividade 01 foi testada com **Python 3.11**. As versões utilizadas estão registradas no `requirements.txt` da raiz do repositório:
 
 ```text
 pandas==3.0.5
@@ -219,9 +245,9 @@ scikit-learn==1.9.1
 ipykernel==7.3.0
 ```
 
-## Como executar
+## Como executar a Atividade 01
 
-As instruções abaixo são compatíveis com Windows, Linux e macOS. A execução final deste projeto foi validada em Windows com Python 3.11.
+As instruções abaixo são compatíveis com Windows, Linux e macOS. A execução final da Atividade 01 foi validada em Windows com Python 3.11.
 
 ### 1. Clone o repositório
 
@@ -339,16 +365,19 @@ reports/figures/
 
 ## Relatório técnico
 
-O relatório final da atividade será disponibilizado em:
+O relatório final da Atividade 01 está disponível em [`docs/relatorio_final.pdf`](docs/relatorio_final.pdf).
 
-```text
-docs/relatorio_final.pdf
-```
+---
+
+## Atividade 02 — Avaliação Comparativa de Modelos
+
+A Atividade 02 está na pasta `atividade-02/projeto-cardiovascular-ia-02/` e possui estrutura, dependências e instruções de execução próprias:
+
+- **README e instruções de execução (Google Colab):** [`atividade-02/projeto-cardiovascular-ia-02/README.md`](atividade-02/projeto-cardiovascular-ia-02/README.md)
+- **Relatório técnico:** [`atividade-02/projeto-cardiovascular-ia-02/docs/relatorio_final.pdf`](atividade-02/projeto-cardiovascular-ia-02/docs/relatorio_final.pdf)
+
+Nela, foram desenvolvidos e comparados modelos de Sistema Especialista, Árvore de Decisão, Random Forest e Gradient Boosting, dando continuidade à análise da Atividade 01.
 
 ## Repositório
 
-**GitHub:** https://github.com/maricaico/projeto-cardiovascular-ia
-
-## Observação final
-
-Este projeto contempla análise exploratória, limpeza, pré-processamento e obtenção de percepções para problemas de regressão e classificação. O treinamento e a comparação efetiva de modelos de Machine Learning não fazem parte desta etapa da atividade.
+**GitHub:** [https://github.com/maricaico/projeto-cardiovascular-ia](https://github.com/maricaico/projeto-cardiovascular-ia)

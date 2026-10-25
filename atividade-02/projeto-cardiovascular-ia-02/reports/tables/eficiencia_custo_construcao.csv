@@ -1,0 +1,7 @@
+Tarefa,Modelo,Ajuste final médio (s),Tempo etapa seleção (s),Protocolo,Razão esforço humano / etapa computacional
+Classificação,Árvore de Decisão,0.1081971374000204,71.11482963999879,Árvore irrestrita + busca CV,50.62235286541652
+Classificação,Random Forest,1.358229495800151,53.96346112600008,Busca CV e ajuste,66.71180693162559
+Classificação,Gradient Boosting,0.8010489482001504,30.79052610400004,Busca CV e ajuste,116.919080493799
+Regressão,Árvore de Decisão,0.06669531520019518,20.40585614900192,Árvore irrestrita + busca CV,176.4199440451354
+Regressão,Random Forest,2.62940187560016,42.70701798499999,Busca CV e ajuste,84.2952790865527
+Regressão,Gradient Boosting,1.311621163599921,25.29056866900009,Busca CV e ajuste,142.3455536771974

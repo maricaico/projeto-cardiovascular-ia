@@ -1,0 +1,21 @@
+# Atividade 02 — Sistema especialista de CLASSIFICAÇÃO (orientação do professor).
+# Elaboradas a partir das frequências observadas no TREINAMENTO.
+# Regras acadêmicas (tipo Relação ou Heurística), não critérios de diagnóstico clínico.
+# ORDEM DAS LINHAS = PRECEDÊNCIA: a PRIMEIRA regra atendida decide a classe.
+# Cada regra usa apenas conjunções E. Os limites 125 mg/dL e 137 mmHg
+# foram identificados exploratoriamente nos quartis do treino.
+# Formato: ID | Tipo | SE condicao E condicao ENTÃO Cardiovascular_Disease = 0/1
+# A frequência de acerto, o suporte e os escores NÃO são fixados neste arquivo:
+# são calculados exclusivamente com o treinamento pela classe BaseConhecimentoClassificacao.
+
+RC01 | Relação | SE Diabetes == 1 E Hypertension == 1 E Chest_Pain == 1 E ECG_Result == 1 ENTÃO Cardiovascular_Disease = 1
+RC02 | Relação | SE Diabetes == 1 E Hypertension == 1 E Chest_Pain == 1 ENTÃO Cardiovascular_Disease = 1
+RC04 | Relação | SE Diabetes == 0 E Hypertension == 0 E Chest_Pain == 0 E ECG_Result == 0 ENTÃO Cardiovascular_Disease = 0
+RC03 | Heurística | SE Blood_Glucose > 125 E Blood_Pressure_Systolic > 137 ENTÃO Cardiovascular_Disease = 1
+RC06 | Heurística | SE Diabetes == 1 E Hypertension == 1 ENTÃO Cardiovascular_Disease = 1
+RC07 | Heurística | SE Diabetes == 1 E Chest_Pain == 1 ENTÃO Cardiovascular_Disease = 1
+RC08 | Heurística | SE Chest_Pain == 1 E ECG_Result == 1 ENTÃO Cardiovascular_Disease = 1
+RC09 | Heurística | SE Hypertension == 1 E Chest_Pain == 1 ENTÃO Cardiovascular_Disease = 1
+RC10 | Heurística | SE Diabetes == 1 E ECG_Result == 1 ENTÃO Cardiovascular_Disease = 1
+RC11 | Heurística | SE Hypertension == 1 E ECG_Result == 1 ENTÃO Cardiovascular_Disease = 1
+RC05 | Heurística | SE Blood_Glucose <= 125 E Blood_Pressure_Systolic <= 137 ENTÃO Cardiovascular_Disease = 0

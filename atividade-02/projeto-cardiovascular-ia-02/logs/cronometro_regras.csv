@@ -1,0 +1,4 @@
+sessao,tarefa,data,horario_inicio,horario_fim,tempo_relogio_min,tempo_interrupcoes_min,tempo_minutos,regras_criadas,interrupcoes,descricao
+1,Classificacao,2026-10-16,18:00,18:30,30,10.0,20.0,5,Pausa,Criação de regras
+2,Classificacao,2026-10-16,18:50,19:15,25,3.0,22.0,4,Descanso,Elaboração e pesquisa
+3,Classificacao,2026-10-16,19:20,19:40,20,2.0,18.0,2,Pausa,Pesquisa e elaboração de regras

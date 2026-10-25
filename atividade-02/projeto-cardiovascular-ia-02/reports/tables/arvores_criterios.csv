@@ -1,0 +1,5 @@
+﻿Tarefa,Critério,Métrica,Melhor resultado CV
+Classificação,gini,F1,0.6279534489344671
+Classificação,entropy,F1,0.6349378635905758
+Regressão,squared_error,RMSE,2.983444509179274
+Regressão,friedman_mse,RMSE,2.983444509179274

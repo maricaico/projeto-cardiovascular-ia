@@ -1,0 +1,8 @@
+Tarefa,Modelo,Tamanho (KB),Número de regras,Número de árvores,Total de nós,Total de folhas,Profundidade máxima
+Classificação,Sistema Especialista,3.8896484375,11,0,0,0,0
+Classificação,Árvore de Decisão,6.14453125,0,1,21,11,4
+Classificação,Random Forest,487.6044921875,0,50,5922,2986,6
+Classificação,Gradient Boosting,80.6064453125,0,50,750,400,3
+Regressão,Árvore de Decisão,8.79296875,0,1,63,32,5
+Regressão,Random Forest,888.1748046875,0,100,12134,6117,6
+Regressão,Gradient Boosting,88.3720703125,0,100,700,400,2

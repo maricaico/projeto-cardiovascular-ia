@@ -1,0 +1,17 @@
+# Ambiente da execução final: Google Colab, Python 3.13
+# Versões das bibliotecas principais registradas no Notebook 08
+
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+joblib==1.6.0
+matplotlib==3.10.0
+
+# Usado nos Notebooks 03 e 08
+psutil>=5.9.0
+
+# Usado nos Notebooks 01 e 02 (gráficos da atividade anterior)
+seaborn==0.13.2
+
+# Só para executar localmente no Jupyter (o Colab já inclui)
+ipykernel>=6.29.0
