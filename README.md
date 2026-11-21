@@ -13,8 +13,9 @@
 | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
 | **Atividade 01** — Análise Exploratória e Preparação de Dados | EDA, limpeza, pré-processamento e percepções para regressão e classificação                                                    | raiz do repositório (este README) — [relatório](docs/relatorio_final.pdf)                           |
 | **Atividade 02** — Avaliação Comparativa de Modelos           | Sistema Especialista, Árvore de Decisão, Random Forest e Gradient Boosting; métricas, generalização e eficiência computacional | pasta [`atividade-02/projeto-cardiovascular-ia-02/`](atividade-02/projeto-cardiovascular-ia-02/) — [README](atividade-02/projeto-cardiovascular-ia-02/README.md) e [relatório](atividade-02/projeto-cardiovascular-ia-02/docs/relatorio_final.pdf) |
+| **Atividade 03** — Redes Neurais Artificiais com PyTorch | Perceptrons Multicamadas (MLP) para classificação e regressão; estudo de hiperparâmetros, salvamento e inferência, generalização e eficiência computacional | pasta [`atividade-03/projeto-cardiovascular-ia-03/`](atividade-03/projeto-cardiovascular-ia-03/) — [README](atividade-03/projeto-cardiovascular-ia-03/README.md) e [relatório](atividade-03/projeto-cardiovascular-ia-03/docs/relatorio_final.pdf) |
 
-Cada atividade possui seu próprio `requirements.txt` e suas próprias instruções de execução. As seções a seguir descrevem a **Atividade 01**; para a Atividade 02, consulte o [README da Atividade 02](atividade-02/projeto-cardiovascular-ia-02/README.md).
+Cada atividade possui seu próprio `requirements.txt` e suas próprias instruções de execução. As seções a seguir descrevem a **Atividade 01**; para as demais, consulte o [README da Atividade 02](atividade-02/projeto-cardiovascular-ia-02/README.md) e o [README da Atividade 03](atividade-03/projeto-cardiovascular-ia-03/README.md).
 
 ---
 
@@ -66,14 +67,26 @@ Esta etapa do projeto não realiza o treinamento definitivo dos modelos. As aná
 │   └── figures/
 ├── docs/
 │   └── relatorio_final.pdf
-└── atividade-02/
-    └── projeto-cardiovascular-ia-02/
+├── atividade-02/
+│   └── projeto-cardiovascular-ia-02/
+│       ├── README.md
+│       ├── requirements.txt
+│       ├── notebooks/
+│       ├── data/
+│       ├── src/
+│       ├── rules/
+│       ├── models/
+│       ├── logs/
+│       ├── reports/
+│       └── docs/
+│           └── relatorio_final.pdf
+└── atividade-03/
+    └── projeto-cardiovascular-ia-03/
         ├── README.md
         ├── requirements.txt
         ├── notebooks/
         ├── data/
         ├── src/
-        ├── rules/
         ├── models/
         ├── logs/
         ├── reports/
@@ -231,7 +244,7 @@ categorical_vs_disease.png
 
 ## Requisitos da Atividade 01
 
-> As instruções desta seção e da seção seguinte valem **somente para a Atividade 01** (notebooks da pasta `notebooks/` na raiz). A **Atividade 02** é executada no **Google Colab** e tem instruções próprias no [README da Atividade 02](atividade-02/projeto-cardiovascular-ia-02/README.md).
+> As instruções desta seção e da seção seguinte valem **somente para a Atividade 01** (notebooks da pasta `notebooks/` na raiz). As **Atividades 02 e 03** são executadas no **Google Colab** e têm instruções próprias nos READMEs das respectivas pastas ([Atividade 02](atividade-02/projeto-cardiovascular-ia-02/README.md) e [Atividade 03](atividade-03/projeto-cardiovascular-ia-03/README.md)).
 
 A Atividade 01 foi testada com **Python 3.11**. As versões utilizadas estão registradas no `requirements.txt` da raiz do repositório:
 
@@ -377,6 +390,15 @@ A Atividade 02 está na pasta `atividade-02/projeto-cardiovascular-ia-02/` e pos
 - **Relatório técnico:** [`atividade-02/projeto-cardiovascular-ia-02/docs/relatorio_final.pdf`](atividade-02/projeto-cardiovascular-ia-02/docs/relatorio_final.pdf)
 
 Nela, foram desenvolvidos e comparados modelos de Sistema Especialista, Árvore de Decisão, Random Forest e Gradient Boosting, dando continuidade à análise da Atividade 01.
+
+## Atividade 03 — Redes Neurais Artificiais com PyTorch
+
+A Atividade 03 está na pasta `atividade-03/projeto-cardiovascular-ia-03/` e possui estrutura, dependências e instruções de execução próprias:
+
+- **README e instruções de execução (Google Colab):** [`atividade-03/projeto-cardiovascular-ia-03/README.md`](atividade-03/projeto-cardiovascular-ia-03/README.md)
+- **Relatório técnico:** [`atividade-03/projeto-cardiovascular-ia-03/docs/relatorio_final.pdf`](atividade-03/projeto-cardiovascular-ia-03/docs/relatorio_final.pdf)
+
+Nela, foram desenvolvidas redes neurais do tipo Perceptron Multicamadas (MLP), em PyTorch, para os mesmos problemas de classificação e regressão, com estudo de hiperparâmetros, salvamento e inferência dos modelos, análise de generalização e de eficiência computacional, mantendo a divisão dos dados da Atividade 02.
 
 ## Repositório
 
