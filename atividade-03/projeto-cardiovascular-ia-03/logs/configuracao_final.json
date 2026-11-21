@@ -1,0 +1,58 @@
+{
+  "regressao": {
+    "config_id": "cfg_a7f13b5c34",
+    "config": {
+      "hidden": [
+        32,
+        32
+      ],
+      "activation": "ReLU",
+      "dropout": 0.0,
+      "otimizador": "Adam",
+      "lr": 0.001,
+      "batch_size": 32,
+      "weight_decay": 0.001,
+      "n_epocas": 200,
+      "paciencia": 20,
+      "pos_weight": false
+    },
+    "descricao": "2×32 ReLU, Adam, lr=0.001, batch=32, wd=0.001, dropout=0",
+    "n_parametros": 1313,
+    "metrica_validacao": "RMSE",
+    "media_5_sementes": 2.9518183074717355,
+    "desvio_5_sementes": 0.0027260362068022618,
+    "regra": "operacional inspirada na regra de um erro-padrão (revisada após a confirmação)",
+    "erro_padrao_melhor": 0.0029533337195901863,
+    "limite_aceitavel": 2.953633591117012,
+    "melhor_media": "3×64 Tanh, AdamW, lr=0.01, batch=128, wd=0.0001, dropout=0",
+    "escolha_pela_regra_original": "2×32 ReLU, Adam, lr=0.001, batch=32, wd=0.001, dropout=0"
+  },
+  "classificacao": {
+    "config_id": "cfg_a7f13b5c34",
+    "config": {
+      "hidden": [
+        32,
+        32
+      ],
+      "activation": "ReLU",
+      "dropout": 0.0,
+      "otimizador": "Adam",
+      "lr": 0.001,
+      "batch_size": 32,
+      "weight_decay": 0.001,
+      "n_epocas": 200,
+      "paciencia": 20,
+      "pos_weight": false
+    },
+    "descricao": "2×32 ReLU, Adam, lr=0.001, batch=32, wd=0.001, dropout=0",
+    "n_parametros": 1313,
+    "metrica_validacao": "AP",
+    "media_5_sementes": 0.6882439872384138,
+    "desvio_5_sementes": 0.0012805595165000555,
+    "regra": "operacional inspirada na regra de um erro-padrão (revisada após a confirmação)",
+    "erro_padrao_melhor": 0.0004028574916359901,
+    "limite_aceitavel": 0.6881574920124306,
+    "melhor_media": "2×128 GELU, AdamW, lr=0.0001, batch=8, wd=0.0001, dropout=0",
+    "escolha_pela_regra_original": "1×8 Sigmoid, AdamW, lr=0.1, batch=32, wd=1e-05, dropout=0"
+  }
+}

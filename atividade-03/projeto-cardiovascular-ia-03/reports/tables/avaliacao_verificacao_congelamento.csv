@@ -1,0 +1,5 @@
+﻿Modelo,Semente,Limiar,Pesos = congelamento,Arquivo inalterado,Semente e limiar = congelamento
+regressao/final,2,,True,True,True
+classificacao/final,4,0.4037757976025979,True,True,True
+regressao/referencia,3,,True,True,True
+classificacao/referencia,3,0.3621355355867819,True,True,True

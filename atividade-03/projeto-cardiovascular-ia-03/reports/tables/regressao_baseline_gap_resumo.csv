@@ -1,0 +1,8 @@
+﻿Indicador,Valor
+Gap RMSE do preditor ingênuo (referência),0.048608751775108594
+Gap RMSE da rede — média das sementes,0.00514308051950989
+Gap RMSE da rede — desvio entre sementes (ddof=1),0.005994148906939444
+Gap RMSE da rede — mínimo,-0.002647585030065791
+Gap RMSE da rede — máximo,0.01181471737733597
+RMSE de validação — desvio entre sementes (ddof=1),0.0028237048304757947
+Sementes com gap RMSE negativo (erro maior na validação),1

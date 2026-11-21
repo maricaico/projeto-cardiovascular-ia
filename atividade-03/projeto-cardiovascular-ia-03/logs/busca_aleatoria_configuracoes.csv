@@ -1,0 +1,51 @@
+﻿problema,ordem,config_id,ja_treinada_antes,hidden,activation,otimizador,lr,batch_size,weight_decay,dropout
+regressao,1,cfg_4cfbc10049,False,"[2, 2, 2, 2, 2]",Sigmoid,RMSprop,0.01,12800,0.0,0.3
+regressao,2,cfg_0de7961d41,False,[4],Tanh,AdamW,0.1,512,0.001,0.5
+regressao,3,cfg_8aff0223fe,False,[16],GELU,RMSprop,0.01,32,0.0,0.5
+regressao,4,cfg_54cd966456,False,"[64, 64, 64]",Tanh,AdamW,0.01,128,0.0001,0.0
+regressao,5,cfg_4993eccf52,False,"[2, 2, 2]",GELU,SGD,1.0,12800,1e-05,0.3
+regressao,6,cfg_8bffc9be27,False,"[4, 4, 4, 4, 4]",Sigmoid,SGD_momentum,0.0001,12800,0.0001,0.5
+regressao,7,cfg_0962d3aaf2,False,"[32, 32, 32, 32, 32]",Sigmoid,SGD,0.001,128,0.0001,0.0
+regressao,8,cfg_d9c539bfe7,False,[16],Sigmoid,Adam,1.0,512,1e-05,0.5
+regressao,9,cfg_359a1921ce,False,"[8, 8]",GELU,SGD_momentum,0.0001,128,0.001,0.0
+regressao,10,cfg_084ed89d41,False,[16],Sigmoid,RMSprop,0.001,32,0.0001,0.3
+regressao,11,cfg_bf7f8cd8d4,False,"[128, 128]",ReLU,AdamW,0.1,512,0.0,0.1
+regressao,12,cfg_e688db0d86,False,"[64, 64, 64, 64, 64]",Tanh,AdamW,1.0,32,0.01,0.1
+regressao,13,cfg_0d78ad514c,False,"[4, 4, 4]",Sigmoid,SGD,1.0,8,0.01,0.0
+regressao,14,cfg_2852c0f317,False,"[64, 64, 64, 64, 64]",Sigmoid,Adam,0.01,512,1e-05,0.5
+regressao,15,cfg_43e7f097c6,False,"[16, 16]",Tanh,RMSprop,0.0001,8,1e-05,0.0
+regressao,16,cfg_ec0fbb63a9,False,"[16, 16, 16]",Sigmoid,RMSprop,1.0,128,0.0,0.5
+regressao,17,cfg_84f67d80c6,False,"[32, 32, 32]",Tanh,RMSprop,0.0001,128,0.001,0.1
+regressao,18,cfg_4f9510f1ae,False,[32],LeakyReLU,RMSprop,1.0,32,1e-05,0.1
+regressao,19,cfg_bb2da16063,False,"[128, 128, 128, 128, 128]",ReLU,SGD_momentum,1.0,8,0.01,0.1
+regressao,20,cfg_27d2d4a71e,False,"[128, 128]",Tanh,Adam,0.0001,128,0.0001,0.5
+regressao,21,cfg_d2e535652c,False,"[128, 128, 128]",Tanh,RMSprop,0.01,12800,1e-05,0.0
+regressao,22,cfg_1be0e7f473,False,[8],ReLU,SGD,0.1,512,0.001,0.1
+regressao,23,cfg_ee5cc2f4fe,False,[64],GELU,RMSprop,1.0,8,0.0001,0.3
+regressao,24,cfg_7e24c6b493,False,"[16, 16]",ReLU,SGD_momentum,0.001,32,0.001,0.3
+regressao,25,cfg_0273a91f59,False,"[32, 32]",GELU,SGD,0.001,8,1e-05,0.5
+classificacao,1,cfg_6338e0f9d7,False,"[8, 8, 8, 8, 8]",Tanh,Adam,0.001,32,0.001,0.5
+classificacao,2,cfg_6205947488,False,"[4, 4, 4, 4, 4]",LeakyReLU,Adam,0.1,128,0.001,0.1
+classificacao,3,cfg_ed0b47a28d,False,[2],Tanh,AdamW,0.0001,128,0.001,0.0
+classificacao,4,cfg_6e68e3ca37,False,"[64, 64]",GELU,RMSprop,0.01,8,0.0001,0.5
+classificacao,5,cfg_300107645f,False,"[2, 2, 2, 2, 2]",Tanh,Adam,0.01,128,1e-05,0.3
+classificacao,6,cfg_bcd30b6f15,False,"[2, 2, 2]",ReLU,Adam,0.01,8,0.001,0.1
+classificacao,7,cfg_7cdb94416a,False,[64],ReLU,RMSprop,0.0001,32,0.001,0.0
+classificacao,8,cfg_3f614a213a,False,[32],ReLU,RMSprop,0.1,8,1e-05,0.5
+classificacao,9,cfg_40eb2a43f2,False,"[128, 128, 128]",Tanh,SGD_momentum,0.01,128,1e-05,0.0
+classificacao,10,cfg_05b797db37,False,"[4, 4, 4, 4, 4]",Tanh,RMSprop,0.001,512,0.0,0.0
+classificacao,11,cfg_476ed0511b,False,"[4, 4]",Sigmoid,RMSprop,0.001,12800,0.0,0.3
+classificacao,12,cfg_0e43496cd0,False,"[16, 16]",GELU,SGD_momentum,0.1,32,0.0001,0.3
+classificacao,13,cfg_c75b2bdf85,False,"[64, 64]",LeakyReLU,SGD,0.001,12800,0.0,0.5
+classificacao,14,cfg_75c21c1370,False,[16],LeakyReLU,RMSprop,0.001,8,0.001,0.3
+classificacao,15,cfg_5c54d8cddb,False,"[2, 2]",LeakyReLU,Adam,0.01,512,0.01,0.5
+classificacao,16,cfg_6242117708,False,[8],Sigmoid,AdamW,0.1,32,1e-05,0.0
+classificacao,17,cfg_5b7070e16f,False,"[2, 2, 2]",Tanh,SGD_momentum,0.001,12800,0.0001,0.5
+classificacao,18,cfg_96a0622a04,False,"[128, 128]",LeakyReLU,AdamW,0.01,32,0.001,0.3
+classificacao,19,cfg_15eada5e19,False,"[128, 128]",GELU,AdamW,0.0001,8,0.0001,0.0
+classificacao,20,cfg_1f709febb2,False,"[8, 8]",GELU,AdamW,0.0001,12800,0.0,0.3
+classificacao,21,cfg_e01efa3c8f,False,"[64, 64, 64, 64, 64]",LeakyReLU,AdamW,0.0001,128,0.0001,0.1
+classificacao,22,cfg_f1324fedd7,False,"[2, 2, 2, 2, 2]",LeakyReLU,Adam,0.001,32,0.01,0.0
+classificacao,23,cfg_d8e4de4f6c,False,"[64, 64, 64]",LeakyReLU,SGD_momentum,0.0001,12800,0.01,0.0
+classificacao,24,cfg_72c65db823,False,[2],ReLU,AdamW,0.1,8,0.001,0.0
+classificacao,25,cfg_4b9c12b1d0,False,"[8, 8, 8]",Sigmoid,AdamW,0.0001,8,1e-05,0.1

@@ -1,0 +1,7 @@
+﻿Problema,Indicador (semente 0),Notebook 03/04,Notebook 05,Diferença absoluta,Diferença / desvio entre sementes (03/04)
+regressao,RMSE_validacao,2.957367193500649,2.957367193500649,0,0
+regressao,R2_validacao,0.4933180143382764,0.4933180143382764,0,0
+regressao,epoca_melhor,13,13,0,
+classificacao,Average_Precision_validacao,0.6865856391226633,0.6865856391226633,0,0
+classificacao,ROC-AUC_validacao,0.8171412816374849,0.8171412816374849,0,0
+classificacao,epoca_melhor,7,7,0,

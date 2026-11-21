@@ -1,0 +1,5 @@
+﻿Problema,Papel,Weight decay,Parâmetros subnormais,Parâmetros (%),Lote — padrão (ms),Lote — flush de subnormais (ms),Razão padrão / flush,Diferença máxima da saída,Flush suportado
+regressao,final,0.001,77,5.864432597105864,6.598362199999504,0.3995120333343039,16.51605370914604,0,True
+classificacao,final,0.001,0,0,0.4025476000000102,0.4031762666632706,0.9984407151034376,0,True
+regressao,referencia,0,0,0,0.400243600002644,0.4048573333307104,0.9886040514812716,0,True
+classificacao,referencia,0,0,0,0.3985023333351971,0.39973540000157,0.9969152928002672,0,True

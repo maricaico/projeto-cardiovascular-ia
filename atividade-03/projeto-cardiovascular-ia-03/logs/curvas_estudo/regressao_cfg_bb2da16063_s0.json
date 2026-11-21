@@ -1,0 +1,1 @@
+{"problema": "regressao", "config_id": "cfg_bb2da16063", "semente": 0, "config": {"hidden": [128, 128, 128, 128, 128], "activation": "ReLU", "dropout": 0.1, "otimizador": "SGD_momentum", "lr": 1.0, "batch_size": 8, "weight_decay": 0.01, "n_epocas": 200, "paciencia": 20, "pos_weight": false}, "epoca_melhor": 0, "divergiu": true, "hist": {"treino": [NaN], "val": [NaN]}}

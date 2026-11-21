@@ -1,0 +1,5 @@
+Diabetes,Hypertension,Chest_Pain,ECG_Result,Blood_Glucose,Blood_Pressure_Systolic
+No,No,No,Normal,113.0,107
+No,Yes,Yes,Normal,68.0,115
+No,Yes,No,Normal,116.0,103
+No,No,No,Normal,,118

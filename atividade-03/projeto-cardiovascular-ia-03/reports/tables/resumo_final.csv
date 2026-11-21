@@ -1,0 +1,23 @@
+﻿,Regressão (Risk_Score),Classificação (Cardiovascular_Disease)
+Arquitetura,"2 × 32, ReLU, saída linear","2 × 32, ReLU, saída linear"
+Otimizador / taxa,"Adam, 0.001","Adam, 0.001"
+Batch / weight decay / dropout,32 / 0.001 / 0,32 / 0.001 / 0
+Épocas (máx.) / paciência,200 / 20,200 / 20
+RMSE — treino / validação / teste,2.9654 / 2.9522 / 2.9686,—
+MAE — treino / validação / teste,2.3810 / 2.3763 / 2.3854,—
+R2 — treino / validação / teste,0.5023 / 0.4951 / 0.4763,—
+Gap de RMSE (treino − teste),-0.0032,—
+Parâmetros / MACs por amostra,1313 / 1248,1313 / 1248
+Arquivo .pt (KB),9.6,9.9
+Treinamento: tempo (s) / épocas,23.7 / 38,26.6 / 44
+Treinamento: acréscimo de RSS (MB),96.5,76.9
+"Inferência em lote, ponta a ponta (µs por amostra)",6.22,3.35
+"Inferência de uma amostra, ponta a ponta (ms)",6.594,6.226
+"Energia do treinamento (Wh) / CO₂ (mg), hipótese principal",0.0263 / 1.2,0.0295 / 1.35
+Limiar de decisão,—,0.404
+Average_Precision — treino / validação / teste,—,0.7007 / 0.6880 / 0.6900
+ROC-AUC — treino / validação / teste,—,0.8200 / 0.8172 / 0.7993
+F1-score — treino / validação / teste,—,0.6396 / 0.6377 / 0.6210
+Recall — treino / validação / teste,—,0.6117 / 0.6078 / 0.5956
+Precision — treino / validação / teste,—,0.6702 / 0.6708 / 0.6486
+Gap de Average_Precision (treino − teste),—,+0.0107

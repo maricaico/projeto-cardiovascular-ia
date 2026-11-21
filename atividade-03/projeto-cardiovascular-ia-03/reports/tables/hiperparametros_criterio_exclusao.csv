@@ -1,0 +1,81 @@
+﻿Problema,Hiperparâmetro,chave,Valor,Sementes divergentes,Sementes que superam a referência,Excluído da busca,Motivo
+regressao,Neurônios por camada,neuronios,2,0,5,False,—
+regressao,Neurônios por camada,neuronios,4,0,5,False,—
+regressao,Neurônios por camada,neuronios,8,0,5,False,—
+regressao,Neurônios por camada,neuronios,16,0,5,False,—
+regressao,Neurônios por camada,neuronios,32,0,5,False,—
+regressao,Neurônios por camada,neuronios,64,0,5,False,—
+regressao,Neurônios por camada,neuronios,128,0,5,False,—
+regressao,Camadas ocultas,camadas,1,0,5,False,—
+regressao,Camadas ocultas,camadas,2,0,5,False,—
+regressao,Camadas ocultas,camadas,3,0,5,False,—
+regressao,Camadas ocultas,camadas,5,0,5,False,—
+regressao,Função de ativação,ativacao,ReLU,0,5,False,—
+regressao,Função de ativação,ativacao,LeakyReLU,0,5,False,—
+regressao,Função de ativação,ativacao,Tanh,0,5,False,—
+regressao,Função de ativação,ativacao,Sigmoid,0,5,False,—
+regressao,Função de ativação,ativacao,GELU,0,5,False,—
+regressao,Otimizador,otimizador,SGD,0,5,False,—
+regressao,Otimizador,otimizador,SGD+momentum,0,5,False,—
+regressao,Otimizador,otimizador,RMSprop,0,5,False,—
+regressao,Otimizador,otimizador,Adam,0,5,False,—
+regressao,Otimizador,otimizador,AdamW,0,5,False,—
+regressao,Taxa de aprendizado,lr,0.0001,0,5,False,—
+regressao,Taxa de aprendizado,lr,0.001,0,5,False,—
+regressao,Taxa de aprendizado,lr,0.01,0,5,False,—
+regressao,Taxa de aprendizado,lr,0.1,0,5,False,—
+regressao,Taxa de aprendizado,lr,1,0,4,False,—
+regressao,Tamanho do batch,batch,8,0,5,False,—
+regressao,Tamanho do batch,batch,32,0,5,False,—
+regressao,Tamanho do batch,batch,128,0,5,False,—
+regressao,Tamanho do batch,batch,512,0,5,False,—
+regressao,Tamanho do batch,batch,12.800,0,5,False,—
+regressao,Weight decay (L2),weight_decay,0,0,5,False,—
+regressao,Weight decay (L2),weight_decay,1e-05,0,5,False,—
+regressao,Weight decay (L2),weight_decay,0.0001,0,5,False,—
+regressao,Weight decay (L2),weight_decay,0.001,0,5,False,—
+regressao,Weight decay (L2),weight_decay,0.01,0,5,False,—
+regressao,Dropout,dropout,0.0,0,5,False,—
+regressao,Dropout,dropout,0.1,0,5,False,—
+regressao,Dropout,dropout,0.3,0,5,False,—
+regressao,Dropout,dropout,0.5,0,5,False,—
+classificacao,Neurônios por camada,neuronios,2,0,4,False,—
+classificacao,Neurônios por camada,neuronios,4,0,5,False,—
+classificacao,Neurônios por camada,neuronios,8,0,5,False,—
+classificacao,Neurônios por camada,neuronios,16,0,5,False,—
+classificacao,Neurônios por camada,neuronios,32,0,5,False,—
+classificacao,Neurônios por camada,neuronios,64,0,5,False,—
+classificacao,Neurônios por camada,neuronios,128,0,5,False,—
+classificacao,Camadas ocultas,camadas,1,0,5,False,—
+classificacao,Camadas ocultas,camadas,2,0,5,False,—
+classificacao,Camadas ocultas,camadas,3,0,5,False,—
+classificacao,Camadas ocultas,camadas,5,0,5,False,—
+classificacao,Função de ativação,ativacao,ReLU,0,5,False,—
+classificacao,Função de ativação,ativacao,LeakyReLU,0,5,False,—
+classificacao,Função de ativação,ativacao,Tanh,0,5,False,—
+classificacao,Função de ativação,ativacao,Sigmoid,0,5,False,—
+classificacao,Função de ativação,ativacao,GELU,0,5,False,—
+classificacao,Otimizador,otimizador,SGD,0,5,False,—
+classificacao,Otimizador,otimizador,SGD+momentum,0,5,False,—
+classificacao,Otimizador,otimizador,RMSprop,0,5,False,—
+classificacao,Otimizador,otimizador,Adam,0,5,False,—
+classificacao,Otimizador,otimizador,AdamW,0,5,False,—
+classificacao,Taxa de aprendizado,lr,0.0001,0,5,False,—
+classificacao,Taxa de aprendizado,lr,0.001,0,5,False,—
+classificacao,Taxa de aprendizado,lr,0.01,0,5,False,—
+classificacao,Taxa de aprendizado,lr,0.1,0,5,False,—
+classificacao,Taxa de aprendizado,lr,1,0,0,True,não superou a referência ingênua em nenhuma semente
+classificacao,Tamanho do batch,batch,8,0,5,False,—
+classificacao,Tamanho do batch,batch,32,0,5,False,—
+classificacao,Tamanho do batch,batch,128,0,5,False,—
+classificacao,Tamanho do batch,batch,512,0,5,False,—
+classificacao,Tamanho do batch,batch,12.800,0,5,False,—
+classificacao,Weight decay (L2),weight_decay,0,0,5,False,—
+classificacao,Weight decay (L2),weight_decay,1e-05,0,5,False,—
+classificacao,Weight decay (L2),weight_decay,0.0001,0,5,False,—
+classificacao,Weight decay (L2),weight_decay,0.001,0,5,False,—
+classificacao,Weight decay (L2),weight_decay,0.01,0,5,False,—
+classificacao,Dropout,dropout,0.0,0,5,False,—
+classificacao,Dropout,dropout,0.1,0,5,False,—
+classificacao,Dropout,dropout,0.3,0,5,False,—
+classificacao,Dropout,dropout,0.5,0,5,False,—

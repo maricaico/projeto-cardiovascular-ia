@@ -1,0 +1,5 @@
+﻿Problema,Papel,Tempo total (s) — média,Tempo total (s) — desvio,Épocas executadas — média,Época do melhor estado — média,Tempo por época (s) — média
+regressao,final,41.24910921580013,12.0405433662167,65.59999999999999,45.6,0.6288113103544688
+classificacao,final,30.9180663977997,8.860811202986214,49,29,0.6319157009526971
+regressao,referencia,24.46536585939993,6.81762757433737,41.2,21.2,0.5946481367007721
+classificacao,referencia,20.24164666080005,3.857418000203274,33.4,13.4,0.6066678405356771

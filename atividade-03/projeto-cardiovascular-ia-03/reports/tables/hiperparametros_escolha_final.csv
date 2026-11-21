@@ -1,0 +1,11 @@
+﻿Problema,Configuração,Parâmetros,Média 5 sementes,Desvio 5 sementes,Dentro de 1 erro-padrão da melhor,Melhor média,Escolhida
+regressao,"3×64 Tanh, AdamW, lr=0.01, batch=128, wd=0.0001, dropout=0",8833,2.950680257397422,0.00660385495724596,True,True,False
+regressao,"2×32 ReLU, Adam, lr=0.01, batch=128, wd=0, dropout=0",1313,2.953143461367049,0.003863813051931603,True,False,False
+regressao,"2×32 ReLU, Adam, lr=0.001, batch=32, wd=0.001, dropout=0",1313,2.951818307471735,0.002726036206802262,True,False,True
+regressao,"2×32 LeakyReLU, Adam, lr=0.001, batch=32, wd=0, dropout=0",1313,2.953144295244531,0.002098012273967112,True,False,False
+regressao,"2×32 ReLU, Adam, lr=0.001, batch=32, wd=0, dropout=0.1",1313,2.953309391522435,0.001641272539718876,True,False,False
+classificacao,"2×128 GELU, AdamW, lr=0.0001, batch=8, wd=0.0001, dropout=0",17537,0.6885603495040666,0.0009008167365431269,True,True,False
+classificacao,"1×8 Sigmoid, AdamW, lr=0.1, batch=32, wd=1e-05, dropout=0",65,0.6855923903065314,0.005567847970881185,False,False,False
+classificacao,"2×32 ReLU, Adam, lr=0.01, batch=128, wd=0, dropout=0",1313,0.6871192311331755,0.001897376753308166,False,False,False
+classificacao,"1×64 ReLU, RMSprop, lr=0.0001, batch=32, wd=0.001, dropout=0",513,0.6880909097026073,0.0006501006054760694,False,False,False
+classificacao,"2×32 ReLU, Adam, lr=0.001, batch=32, wd=0.001, dropout=0",1313,0.6882439872384138,0.001280559516500056,True,False,True

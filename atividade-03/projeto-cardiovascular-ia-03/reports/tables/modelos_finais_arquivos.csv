@@ -1,0 +1,5 @@
+﻿Problema,Papel,Arquivo,Parâmetros,Pesos em float32 (KB),Tamanho em disco (KB),Overhead (KB),sha256_arquivo
+regressao,final,models/modelo_regressao.pt,1313,5.12890625,9.5634765625,4.4345703125,2cd27868f8795f659de62d5cc36cd3347cecfe81f827065e60f89ca95651ed14
+classificacao,final,models/modelo_classificacao.pt,1313,5.12890625,9.8603515625,4.7314453125,38dfacdfb058b0a60cd366f74c9a1b09cda3ed05dc4b4ec8252ff8d3f24876ac
+regressao,referencia,models/referencia/baseline_regressao.pt,1313,5.12890625,9.5869140625,4.4580078125,ac671805ae1c99634cdacab7f48de831e2677066b145323a71eeeaf67a872e0c
+classificacao,referencia,models/referencia/baseline_classificacao.pt,1313,5.12890625,9.9462890625,4.8173828125,a8f8cbd4d3784320ae8a9cbdf22817925e7cec41fe5d8fa322b6a53d511f0654

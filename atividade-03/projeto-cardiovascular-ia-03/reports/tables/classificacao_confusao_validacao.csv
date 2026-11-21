@@ -1,0 +1,5 @@
+﻿Configuração,Limiar,VN,FP,FN,VP
+Sem pos_weight,"0,5 (0.50)",1972,249,425,554
+Sem pos_weight,máximo F1 (0.36),1921,300,380,599
+Com pos_weight,"0,5 (0.50)",1800,421,337,642
+Com pos_weight,máximo F1 (0.52),1873,348,360,619

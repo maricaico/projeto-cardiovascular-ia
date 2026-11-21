@@ -1,0 +1,5 @@
+﻿Problema,Papel,Semente,Threads,Tempo de treinamento (s),Épocas executadas,RSS antes do treino (MB),Pico de RSS (MB),Acréscimo no treino (MB),Métrica de validação = checkpoint
+regressao,final,2,1,23.65595833500001,38,382.73828125,479.28515625,96.546875,True
+classificacao,final,4,1,26.56938073800001,44,382.58984375,459.515625,76.92578125,True
+regressao,referencia,3,1,18.54211477000001,32,382.546875,458.953125,76.40625,True
+classificacao,referencia,3,1,21.15083059699998,36,382.87890625,459.80859375,76.9296875,True

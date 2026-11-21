@@ -1,0 +1,12 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Arquivos gerados automaticamente pelo Python e pelo Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db

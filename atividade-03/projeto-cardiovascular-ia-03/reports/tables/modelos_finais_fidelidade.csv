@@ -1,0 +1,9 @@
+﻿Problema,Papel,Conjunto,Métrica,Antes de salvar (memória),Carregado (processo limpo),torch.allclose,Diferença máxima absoluta,Diferença da métrica,Métrica equivalente
+regressao,final,validacao,RMSE,2.952188896649288,2.952188896649288,True,0,0,True
+regressao,final,teste,RMSE,2.968562818405525,2.968562818405525,True,0,0,True
+classificacao,final,validacao,AP,0.6879797076510257,0.6879797076510257,True,0,0,True
+classificacao,final,teste,AP,0.6900119521615333,0.6900119521615333,True,0,0,True
+regressao,referencia,validacao,RMSE,2.954543614056664,2.954543614056664,True,0,0,True
+regressao,referencia,teste,RMSE,2.975073004948113,2.975073004948113,True,0,0,True
+classificacao,referencia,validacao,AP,0.6874837041595809,0.6874837041595809,True,0,0,True
+classificacao,referencia,teste,AP,0.6899770132223397,0.6899770132223397,True,0,0,True

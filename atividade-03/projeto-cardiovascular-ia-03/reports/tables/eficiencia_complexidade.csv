@@ -1,0 +1,5 @@
+﻿Problema,Papel,Arquitetura,Parâmetros treináveis,Camadas lineares,MACs por amostra,FLOPs por amostra (≈ 2 × MACs),Pesos float32 (KB),Só state_dict (KB),Arquivo .pt (KB),Overhead do formato (KB),Overhead dos metadados (KB)
+regressao,final,2×32 ReLU,1313,3,1248,2496,5.12890625,7.8330078125,9.5634765625,2.7041015625,1.73046875
+classificacao,final,2×32 ReLU,1313,3,1248,2496,5.12890625,7.8330078125,9.8603515625,2.7041015625,2.02734375
+regressao,referencia,2×32 ReLU,1313,3,1248,2496,5.12890625,7.8330078125,9.5869140625,2.7041015625,1.75390625
+classificacao,referencia,2×32 ReLU,1313,3,1248,2496,5.12890625,7.8330078125,9.9462890625,2.7041015625,2.11328125

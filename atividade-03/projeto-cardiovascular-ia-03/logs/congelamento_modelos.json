@@ -1,0 +1,32 @@
+{
+  "regressao/final": {
+    "config_id": "cfg_a7f13b5c34",
+    "semente": 2,
+    "limiar": null,
+    "sha256_pesos": "63de314394e96c5c2fddab8a1f00dadb9ea7ea95df1fad3ffd5a9ac44db1a0fa",
+    "sha256_arquivo": "2cd27868f8795f659de62d5cc36cd3347cecfe81f827065e60f89ca95651ed14"
+  },
+  "regressao/referencia": {
+    "config_id": "cfg_8dff8c8b84",
+    "semente": 3,
+    "limiar": null,
+    "sha256_pesos": "1468ab31c372fa7e654fd306b1916394f1088ad58e116213a013eb6e257a9397",
+    "sha256_arquivo": "ac671805ae1c99634cdacab7f48de831e2677066b145323a71eeeaf67a872e0c"
+  },
+  "classificacao/final": {
+    "config_id": "cfg_a7f13b5c34",
+    "semente": 4,
+    "limiar": 0.40377579760259785,
+    "sha256_pesos": "bb224fac09bccb765bc9ed01f11610f462a453601e2c22965ab481e0e544ad0c",
+    "sha256_arquivo": "38dfacdfb058b0a60cd366f74c9a1b09cda3ed05dc4b4ec8252ff8d3f24876ac"
+  },
+  "classificacao/referencia": {
+    "config_id": "cfg_8dff8c8b84",
+    "semente": 3,
+    "limiar": 0.3621355355867819,
+    "sha256_pesos": "26e22e211b2ee466bfdfbddfa24a0e3d72a9922fa227fe612faca3a9aa30e1ba",
+    "sha256_arquivo": "a8f8cbd4d3784320ae8a9cbdf22817925e7cec41fe5d8fa322b6a53d511f0654"
+  },
+  "registrado_em": "2026-11-17T10:54:53",
+  "sha256_previsoes_teste": "1fd5b8f1ea85f1a2a9370c66720adecc9b2982b83e1a2507ac71b8de3773d9b4"
+}

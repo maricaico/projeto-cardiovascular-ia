@@ -1,0 +1,3 @@
+﻿Problema,C (escolhida provisória),S (mais simples),Parâmetros C / S,Sementes em que C é melhor,Diferença média,Desvio das diferenças,C claramente melhor
+regressao,"3×64 Tanh, AdamW, lr=0.01, batch=128, wd=0.0001, dropout=0","2×32 ReLU, Adam, lr=0.001, batch=32, wd=0.001, dropout=0",8833 / 1313,3,0.001138050074313668,0.009064502687392152,False
+classificacao,"2×128 GELU, AdamW, lr=0.0001, batch=8, wd=0.0001, dropout=0","1×8 Sigmoid, AdamW, lr=0.1, batch=32, wd=1e-05, dropout=0",17537 / 65,3,0.002967959197535164,0.00583473983208388,False

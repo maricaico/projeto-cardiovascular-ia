@@ -1,0 +1,15 @@
+# Ambiente da execução final: Google Colab, Python 3.13.18, CPU Intel Xeon @ 2.20GHz
+# Versões registradas nos notebooks (célula de ambiente) e no ambiente do Colab (pip show)
+
+torch==2.14.1
+numpy==2.4.6
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.16.3
+matplotlib==3.10.0
+
+# Medição de memória (Notebook 08)
+psutil==5.9.5
+
+# Só para executar localmente no Jupyter (o Colab já inclui)
+ipykernel>=6.29.0

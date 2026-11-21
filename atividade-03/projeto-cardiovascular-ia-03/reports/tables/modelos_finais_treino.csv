@@ -1,0 +1,5 @@
+﻿Problema,Papel,Semente,Parâmetros,Época do melhor estado,Épocas executadas,Tempo (s),Métrica de validação (agora),Métrica de validação (log),Diferença absoluta
+regressao,final,2,1313,18,38,28.03641731699997,2.952188896649288,2.952188896649288,0
+regressao,referencia,3,1313,12,32,21.64965138299999,2.954543614056664,2.954543614056664,0
+classificacao,final,4,1313,24,44,31.36870008900001,0.6879797076510257,0.6879797076510257,0
+classificacao,referencia,3,1313,16,36,24.47101592900003,0.6874837041595809,0.6874837041595809,0

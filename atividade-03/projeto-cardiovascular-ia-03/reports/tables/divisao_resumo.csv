@@ -1,0 +1,4 @@
+﻿Conjunto,Registros,Positivos (classe 1),% positivos,Glicose ausente,Risk_Score médio,Risk_Score desvio,Risk_Score ≤ 0,Risk_Score = 0
+Ajuste,12800,3917,30.6015625,360,9.824632812500001,4.203642875973451,27,1
+Validação,3200,979,30.59375,116,9.86441875,4.155328742855232,3,0
+Teste,4000,1224,30.6,124,9.894175000000001,4.102754156331068,9,0
